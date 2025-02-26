@@ -34,8 +34,19 @@ if (mark > 0 || mark < 100) {
     }
 } */
 
-//let x = [1,2,3,4,5,6],
-
-for (let x = [1,2,3,4,5,6],) {
-    console.log();
+/* let x = [1,2,3,4,5,6];
+let sum = 0;
+for (let i = 0; i < x.length; i++) {
+    sum = sum + x[i]
 };
+console.log(sum) */
+
+let a = [12,34,56,1];
+let highest = 0;
+
+for (let i = 0; i < a.length; i++) {
+    if (highest < a[i]) {
+        highest = a[i];
+    }
+};
+console.log(highest)
